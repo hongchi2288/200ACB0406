@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/score_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score: "
+        android:textSize="24sp"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score_text_view"
+        android:text="Name" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_edit_text"
+        android:text="Submit" />
+    <TextView
+        android:id="@+id/high_scores_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="High Scores"
+        android:textSize="24sp"
+        android:layout_below="@+id/submit_button"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
